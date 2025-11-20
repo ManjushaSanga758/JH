@@ -77,8 +77,6 @@ codeunit 50110 "JH Token Service"
             if Token = '' then
                 Error('Token is empty after cleaning.');
             
-            Message('✓ Token retrieved successfully. Length: %1 chars', StrLen(Token));
-            Message(Token);
             exit(Token);
         end else
             Error('Access token not found in response. Response: %1', ResponseJson);

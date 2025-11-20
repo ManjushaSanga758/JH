@@ -10,7 +10,14 @@
   "help": "",
   "url": "",
   "logo": "",
-  "dependencies": [],
+  "dependencies": [
+    {
+            "id": "bed3dc2e-9757-4353-b184-fe5b7dae9fb4",
+            "name": "Loan Vision for Dynamics 365 Business Central",
+            "publisher": "Loan Vision, LLC",
+            "version": "1.0.799.1"
+        }
+  ],
   "screenshots": [],
   "platform": "1.0.0.0",
   "application": "25.0.0.0",
